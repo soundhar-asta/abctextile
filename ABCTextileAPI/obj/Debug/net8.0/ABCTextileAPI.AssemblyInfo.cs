@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ABCTextileAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acd4667a82a66640bf1b3e3d242eb3497a5ca6c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7ea9f499c9ba15e18dd2fd5ac00206e2080632")]
 [assembly: System.Reflection.AssemblyProductAttribute("ABCTextileAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ABCTextileAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

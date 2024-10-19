@@ -1,28 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
+using ABCTextileApp.Models;
+using ABCTextileApp.Data;
 
-[ApiController]
-[Route("api/[controller]")]
-public class OrderController : ControllerBase
+namespace ABCTextileApp.Controllers
 {
-    private readonly ABCTextileContext _context;
-
-    public OrderController(ABCTextileContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class OrderController : ControllerBase
     {
-        _context = context;
-    }
+        private readonly ABCTextileContext _context;
 
-    [HttpGet]
-    public async Task<IActionResult> GetOrders()
-    {
-        var orders = await _context.Orders.Include(o => o.Inventory).ToListAsync();
-        return Ok(orders);
-    }
+        public OrderController(ABCTextileContext context)
+        {
+            _context = context;
+        }
 
-    [HttpPost]
-    public async Task<IActionResult> AddOrder(Order order)
-    {
-        _context.Orders.Add(order);
-        await _context.SaveChangesAsync();
-        return CreatedAtAction(nameof(GetOrders), new { id = order.OrderId }, order);
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Order>>> GetOrders()
+        {
+            return await _context.Orders.Include(o => o.Inventory).ToListAsync();
+        }
     }
 }
