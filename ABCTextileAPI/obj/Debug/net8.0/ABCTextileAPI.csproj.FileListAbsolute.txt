@@ -1,0 +1,8 @@
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.csproj.AssemblyReference.cache
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.AssemblyInfoInputs.cache
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.AssemblyInfo.cs
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.csproj.CoreCompileInputs.cache
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/soundharkk/Desktop/Capstone/ABCTextileAPI/obj/Debug/net8.0/ABCTextileAPI.sourcelink.json
