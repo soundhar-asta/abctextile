@@ -1,4 +1,5 @@
-[ApiController]
+[Authorize]
+[HttpPost]
 [Route("api/[controller]")]
 public class InventoryController : ControllerBase
 {
