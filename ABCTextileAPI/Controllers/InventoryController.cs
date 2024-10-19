@@ -1,5 +1,9 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc;
+
 [Authorize]
-[HttpPost]
+
 [Route("api/[controller]")]
 public class InventoryController : ControllerBase
 {
